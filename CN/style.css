@@ -1,0 +1,335 @@
+
+/* Nav bar  */
+
+#resume-parts li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(246, 241, 234);
+    font-size: 20px;
+
+    transition: color 0.5s, border-bottom 4s;
+}
+#resume-parts li:hover{
+    color: rgb(248, 163, 191);
+    border-bottom: 1px solid rgb(184, 168, 168);
+}
+#resume-parts{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+}
+
+/* social-icons */
+
+#social-icons li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(231, 230, 228);
+    font-size: 20px;
+}
+
+
+#social-icons{
+    margin-right: 1rem;
+    top: -1rem;
+    position: relative;
+    text-align: center;
+}
+
+#social-icons i{
+    padding: 8px;
+    border-radius: 50%;
+    transition: box-shadow 0.5s;
+}
+#social-icons i:hover{
+    /* background-color: rgb(4, 20, 34); */
+    box-shadow: 0px 0px 10px 5px;
+    cursor: pointer;
+}
+/* Header background */
+header{
+    background-image: url("resume_background.jpg");
+    height: 50vh;
+    opacity: 0.7;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+}
+
+/* Name */
+#name{
+    font-size: 500%;
+    text-align: center;
+    color: aliceblue;
+    transition: color 0.5s;
+}
+
+#name:hover{
+    color: rgb(125, 174, 216);
+}
+
+
+/* about section*/
+
+#about-heading{
+    text-align: center;
+    font-style: italic;
+}
+#about p{
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(13, 59, 98);
+    position: relative;
+    width: 50%;
+    left: 27%;
+    font-size: 1.3rem;
+}
+
+/* image-section */
+
+#my-image{
+    height: 11rem;
+    width: 11rem;
+    margin: auto;
+    margin-top: -11vh;
+    position: relative;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid rgb(157, 124, 124);
+    box-shadow: 0px 0px 10px 2px;
+}
+
+
+/* skills */
+
+#skills-section{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 224, 224);
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+  /* align-items: auto; */
+    /* align-content: center; */
+    justify-content: space-between;
+    border-radius: 5%;
+    border: 2px solid rgb(143, 140, 140);
+}
+
+#skills-section div{
+    height: auto;
+    max-height: 30px;
+    width: 200px;
+    /* max-width: 200px; */
+    background-color: rgb(144, 137, 137);
+    color: white;
+    margin: 30px 50px 20px 50px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 20px;
+    padding-top: 2px;
+    box-shadow: 0px 0px 1px 2px;
+    transition: box-shadow 0.5s;
+}
+
+#skills-section div:hover{
+    box-shadow: 1px 1px 2px 8px;
+}
+
+#skills-icon{
+    /* margin-left: 43%; */
+    font-size: 30px;
+    margin-right: 5px;
+}
+#skills-heading{
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(125, 125, 165);
+}
+
+#skills-icon-heading-div{
+    margin-left: 43%;
+    height: 40px;
+    width: 150px;
+    padding: 15px 10px 10px 12px;
+    background-color: rgb(226, 224, 224);
+    display: inline-block;
+    border-radius: 5%;
+}
+
+/* experience-section */
+
+#experience-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60vh;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background: linear-gradient(rgb(226, 226, 228),rgb(209, 209, 212));
+    border: 2px solid rgb(145, 142, 142);
+    border-radius: 5%;
+}
+
+#experience-section h1{
+    top: 5%;
+    left: 35%;
+    position: relative;
+}
+
+#experience-section span{
+    color: black;
+}
+#experience-section i{
+    margin-right: 10px;
+}
+
+#experience-box{
+    height: 40%;
+    width: 35%;
+    position: relative;
+    left: 2%;
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+
+#experience-box:nth-child(2n){
+    left: 55%;
+}
+
+.image-box{
+    position: relative;
+    /* top: -9%; */
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    background: url("rakuten.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.job-title{
+    position: relative;
+    /* left: 5%; */
+    font-size: 1.3rem;
+    height: 20%;
+    width: 35%;
+    display: inline-block;
+    color: rgb(72, 72, 157);
+    /* font-size: 1rem; */
+}
+
+.calender{
+    position: relative;
+    left: 30%;
+    top: 2%;
+    height: 30%;
+    width: 30%;
+    color: rgb(71, 71, 142);
+}
+/* calender-icon */
+.fa-calendar-days{
+    color: rgb(77, 77, 153);
+}
+
+.date{
+    display: inline-block;
+    color: rgb(73, 73, 144);
+    font-size: 1.3rem;
+}
+/* flight-section */
+
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 1px dashed black;
+    left: 48%;
+    bottom: 3%;
+    
+}
+
+.timeline-traveller{
+    position: sticky;
+    top: 35%;
+    left: 48%;
+    /* height: 20px;
+    width: 20px; */
+    transform: rotate(90deg)
+}
+
+
+
+/* contact-section */
+#contact-section{
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(rgb(88, 88, 145),rgb(145, 145, 224));
+}
+
+#contact-section nav{
+    height: 10%;
+    width: 100%;
+}
+
+#message-section{
+    display: inline-block;
+    height: 70%;
+    width: 40%;
+    position: relative;
+    left:10%;
+    top: 10%;
+}
+
+#message-section span,input{
+    font-size: 1.8rem;
+    display: block;
+    color: #f9f7f7;
+}
+
+#message-section span{
+    margin-bottom: 5px;
+}
+#message-section input{
+    margin-bottom: 10px;
+}
+
+#message-section input[type=submit]{
+    margin-top: 2rem;
+    background-color: rgb(96, 96, 152);
+    border: 2px solid white;
+}
+#message-section input[type=submit]:hover{
+    cursor: pointer;
+}
+
+#message-section input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #f9f7f7;
+}
+
+#address{
+    position: relative;
+    top: -10%;
+    left: 20%;
+    height: 45%;
+    width: 40%;
+    display: inline-block;
+}
+
+
+#address i,span{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#address i{
+    margin-right: 5px;
+}
